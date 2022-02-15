@@ -1,1 +1,7 @@
 깃을 이용한 두 번째 커밋
+
+초기화 (git init) > 입력 (git commit -m "첫 번째 커밋") > 아이디 및 이름 입력 > 다시 입력 (git commit -m "첫 번째 커밋") > 로그 확인하면 출력됨 (git log)
+
+> 텍스트 파일 추가 (git add .) > 입력 (git commit -m "두 번째 커밋") >  1 file changed, 1 insertion > 로그 확인 (git log) > 첫 번째 커밋과 두 번째 커밋 출력 
+
+bash git 연 내 폴더를 깃허브에 올리기 (git remote add origin https://github.com/rachiyuhu/gitTest.git) > 아마 깃허브 인증을 하라고 뜸 > 인증 후 git push -u origin master (또는 main) 을 입력 > 깃허브에 폴더 전송
