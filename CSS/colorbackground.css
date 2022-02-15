@@ -1,0 +1,29 @@
+.color_name {color :yellow; background-color: red;}
+.color_rgb {color :rgb(255, 255, 0);background-color: rgb(255,0,0);}
+.color_16 {color : #FFFF00; background-color: #8073EF;}
+/*16진수로 색을 작성할 때 3자리 값으로 적용 가능
+3자리 수로 넣게 되면 각 R,G,B의 한 자리씩 값이 들어감
+ex)#FFFF00=#FF0
+어도비피커로 컬러 추출도 가능*/
+.background_image {width: 100%; height: 50%; 
+/*사진 위에 배경색 올리기. 투명도 조절은 그라디언트로 가능
+그라디언트에서는 rgba 가능. a(알파)는 오퍼시티값. 1에 가까울수록 불투명함*/
+background-image: linear-gradient(rgba(0,255,200,0.1),rgba(0,255,200,0.1)), url("/CSS/img/flower.jpg");
+background-repeat: no-repeat;
+background-position: top;
+background-attachment: scroll;
+}
+
+/*백그라운드 내에 전부 삽입 가능. class 이름 변경해주기*/
+.background_image2 {
+    background: url("../img/flower.jpg") fixed no-repeat bottom;
+}
+/*기본적으로 배경은 바둑판식(repeat)으로 들어감 repeat으로 변경 가능
+x는 x좌표만 반복, y는 y 좌표만 반복 .
+x,y 좌표도 기입 가능 ex)200px 200px, 50% 50%*/
+/*MDN:https://developer.mozilla.org/en-US/docs/Web/CSS/background-position*/
+
+/*점 개수로 폴더 찾기 가능
+>>./(점 1개)<<를 사용하면 현재 위치에서 찾는다.
+>>../(점 2개)<<를 사용하면 현재 위치의 상위폴더에서 찾는다.
+>>/(슬래쉬)<<만 작성하면 루트 혹은 시작 폴더에서 찾는다.*/

@@ -1,0 +1,55 @@
+div {
+    display:inline-block;
+    background-color: lightyellow;
+    padding: 20px;
+    width: 200px;
+}
+
+
+.nav {
+    width: 200px;
+    height:30px;
+    background-color: cadetblue;
+}
+/*인라인 속성이라 넓이 높이가 지정안됨*/
+
+
+p {
+    background-color: crimson;
+    margin:0px
+}
+
+.hidden {
+    visibility: hidden;
+
+}
+
+.none {
+    display: none;
+}
+
+
+.opacity {
+    filter: opacity(50%);
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    left: 50px;
+}
+
+.fix {
+    position: fixed;
+    top: 0px;
+    right: 0;
+}
+
+.absoulute {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+}

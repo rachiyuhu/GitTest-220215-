@@ -1,0 +1,64 @@
+.padding {
+    width: 200px;
+    background-color: turquoise;
+    padding: 20px 50px 10px 100px;
+    border: 11px solid black;
+    /*border-width로 각각의 테두리 두께 설정 가능*/
+}
+
+
+.groove_3d, .ridge_3d, .inset_3d, .outset_3d {
+    width : 100px;
+    height : 20px;
+}
+
+.groove_3d {
+    border-style: groove;
+    border-width: 10px;
+    border-color: skyblue;}
+/*3D 테두리!!*/
+
+.ridge_3d {
+    border : 10px ridge yellowgreen;
+}
+
+.inset_3d {
+    border: 10px inset red;
+}
+
+.outset_3d {
+    border: 10px outset purple
+}
+
+.border_width {
+    width:100px;
+    height:30px;
+    border-color: yellow;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-right: 5px dotted;
+    border-bottom: 9px double;
+    border-left: 5px dashed;
+}
+
+.none {
+    background-color: darkblue;
+    width:100px;
+    height:30px;
+    border: none;
+}
+
+.hidden {
+    background-color: darkorchid;
+    width:100px;
+    height:30px;
+    border: hidden 10px ;
+}
+.margin {
+    width: 100px;
+    height: 80px;
+    background-color: pink;
+    margin:20px;
+    outline: black solid 10px;
+}
+/*마진이 auto면 자동으로.. 마진끼리 떨어져있음*/

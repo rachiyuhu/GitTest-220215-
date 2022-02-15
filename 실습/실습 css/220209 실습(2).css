@@ -1,0 +1,23 @@
+.title {
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+}
+
+div {
+    min-width: 200px;
+    border: 2px black dashed;
+    border-radius: 10px;
+    padding: 10px
+
+}
+
+p {
+    min-width : 100px;
+    padding: 5px;
+    padding: inherit;
+    background-color: beige;    
+}
+
+
+

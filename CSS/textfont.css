@@ -1,0 +1,38 @@
+.text {
+    direction: rtl;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-align: center;
+    text-decoration: underline overline orange dashed;
+    text-shadow: 1px 1px green;
+}
+    
+/*ltr : *left to right 왼쪽에서 오른쪽으로 글 작성(기본값)
+rtl : right to left 오른쪽에서 왼쪽으로 글 작성
+letter-spacing : 단락 및 글자 자간 설정 
+word-spacing :자간 설정*/
+
+.text_p {
+    text-indent: 10px;
+    line-height: 40px;
+}
+
+.font_h3 {
+    font-family: "궁서체";
+}
+
+.font {
+    font-family: fantasy, "바탕체";
+    font-size: 8pt;
+
+}
+
+.web_font {@import 
+    url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+    font-family: 'Dongle';
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+}
+/*oblique와 italic 둘다 기울임체
+oblique를 제공하는 브라우저가 거의 없어 italic을 사용 */

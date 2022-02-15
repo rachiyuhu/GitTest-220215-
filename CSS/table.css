@@ -1,0 +1,37 @@
+table {
+    border: solid 2px black;
+    border-collapse: separate;
+
+/*border-collapse는 테이블 내 td가 여러개라 separate가 기본값. collapse로 하면 선이 하나로 겹쳐짐*/
+    border-spacing: 10px;
+    text-align: center;
+    background-color: aqua;
+    empty-cells: show;
+}
+
+
+td {
+    border: dashed 1px black; 
+}
+
+.up, .down, .left, .right {
+    background-image: url("../img/arrow.png");
+    width: 59px;
+    height: 62px;
+}
+/*중복되는 부분은 하나로 묶어줄 수 있음!!! , 넣기*/
+.up {
+    background-position: 0 0;
+}
+/*가로로만 있는 이미지라 백그라운드 포지션은 x좌표만 바뀜*/
+
+.down {
+    background-position: -59px 0;
+}
+.left {
+    background-position: 59px 0;
+}
+
+.right {
+    background-position: 118px 0;
+}

@@ -1,0 +1,79 @@
+.flex_box {
+    background-color: lightgray;
+    display: flex;
+    height: 300px
+}
+
+
+
+.item, .item_1 {  
+    background-color: red;
+}
+
+
+.item_1 {
+    order: -1;/*order는 앞뒤 순서를 바꿔줌*/
+    flex: auto;
+    align-self: center;
+  
+}
+.grid_box {
+    display: grid;
+    height: 400px;
+    background-color: aqua;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid_box .item {
+    width: auto;
+    height: auto;
+
+}
+
+.item_g1 {
+    grid-row: 1 /span 2;
+    align-self: center;
+}
+
+.item_g2 {
+    grid-column: 2/4;
+    background-color: greenyellow;
+}
+
+.grid_box_layout {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "a main b"
+    "footer footer footer";
+
+}
+
+
+.item_header {
+    grid-area: header;
+    background-color: lightskyblue;
+
+
+}
+
+.item_a {
+    grid-area: a;
+}
+
+
+.item_main {
+    grid-area: main;
+}
+
+.item_b {
+    grid-area: b;
+}
+
+.item_footer {
+    grid-area: footer;
+    background-color: lightsalmon;
+}
+
+
+

@@ -1,0 +1,32 @@
+body {
+    background-color: darkorange;
+   
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.item {
+    display: inline-block;
+    padding: 30px;
+    border: 2px solid yellow;
+    background-color: pink;
+
+}
+
+@media screen and (min-width:480px) {
+    body {background-color: lightblue !important;
+    }
+/*!important이 있으면 여러값이 있어도 이 마크가 붙은 값만 출력됨*/
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    body {
+        background-color: red;
+    }
+}
